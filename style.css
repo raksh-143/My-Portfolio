@@ -1,0 +1,108 @@
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: white;
+}
+#dropdownbtn{
+    display: none;
+}
+#home{
+    text-align: center;
+    font-weight: bold;
+}
+#home blockquote{
+    font-size: 30px;
+}
+#home cite{
+    font-size: 28px;
+}
+#Header{
+    text-align: center;
+}
+#Header input{
+    border: none;
+    cursor: pointer;
+    margin: 10px 80px 10px 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Header input:hover{
+    color: #FF1769;
+}
+.headings{
+    font-size: 38px;
+}
+#about_me p{
+    font-size: 23px;
+}
+#about_me a{
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#about_me a:hover{
+    color: #FF1769;
+}
+#my_projects a{
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#my_projects img{
+    width: 350px;
+    height: 200px; 
+    border: 3px solid black;
+}
+#my_projects img:hover{
+    border: 3px solid #FF1769;
+}
+#my_projects a{
+    margin: 20px;
+}
+#see{
+    float: right;
+}
+#see:hover{
+    color: #FF1769;
+}
+#contact_me{
+    margin-bottom: 80px;
+}
+#contact_me p{
+    font-size: 23px;
+}
+#contact_me img{
+    border: 3px solid black;
+}
+#contact_me img:hover{
+    border: 3px solid #FF1769;
+}
+@media only screen and (max-width:600px){
+    *{
+        text-align: center;
+    }
+    #my_projects a{
+        margin: 0px;
+    }
+    #see{
+        float: none;
+    }
+    #dropdownbtn{
+        display: block;
+        border: none;
+        background-color: white;
+    }
+    #menu{
+        display: none;
+        background-color: white;
+    }
+    #menu input{
+        margin: 0px 110px 0px 110px;
+        background-color: white;
+    }
+    #my_projects img{
+        width: 300px;
+        height: 150px; 
+    }
+}
